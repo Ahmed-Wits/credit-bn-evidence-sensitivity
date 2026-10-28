@@ -1,6 +1,6 @@
 # Evidence sensitivity of Bayesian network credit risk assessment
 
-Code for the article "Evidence Sensitivity of Bayesian Network Credit Risk Assessment under Two Information Sets" (Nanabhay and Ajoodha; Wits University, Explainable AI Lab).
+Code for the article "Evidence Sensitivity of Bayesian Network Credit Risk Assessment under Two Information Sets".
 
 The study compares a discrete Bayesian network (BN) learned by BIC hill-climbing with logistic regression (LR) and random forest (RF) on the public Give Me Some Credit data, under two information sets: an application-stage "profile" set (6 inputs, 9-node BN including two missingness indicators) and an "extended" set (10 inputs, 13-node BN). It covers exact inference, evidence sensitivity, value of information, missing-evidence (masking) analyses and decision-value (cost saving) analyses.
 
