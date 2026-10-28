@@ -1,0 +1,25 @@
+# data and anything derived from it
+Data/
+data/
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+*.parquet
+# environments and caches
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+# secrets
+.env
+kaggle.json
+*.pem
+*.key
+# archives, office files, recordings, backups
+*.zip
+*.m4a
+*.docx
+*.bak

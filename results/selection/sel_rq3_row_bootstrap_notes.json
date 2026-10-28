@@ -1,0 +1,18 @@
+{
+ "written": "2026-10-18 (Phase 8 Part B2)",
+ "resamples": 2000,
+ "seed": 42,
+ "design": "one shared 2000 x 30000 multinomial count matrix used for every seed run, model and configuration; counts zeroed on rows invalid in that seed run; the 0% baseline of that run uses the same restricted counts",
+ "statistic": "D(m,b) = mean over the 10 mask seeds of [masked AUC - 0% AUC]; contrast C(b) = D(BN,b) - D(model,b); positive = the BN degrades less",
+ "point_estimate_check": "equals the 10-seed mean paired difference from sel_rq3_summary_v2.csv; max abs diff 2.39e-16 (limit 1e-12)",
+ "reading_rule": "BN degrades less if the 95% percentile interval excludes 0 and is positive; tie if it includes 0; BN degrades more if it excludes 0 and is negative",
+ "coverage": "Intervals cover test-row sampling and averaging over mask seeds, NOT retraining variability (models stay fixed). Primary imputer only; the median-imputed secondary models are not included.",
+ "readings": {
+  "BN degrades less": 16,
+  "tie": 8
+ },
+ "b1_reproduction": "all 120 seed runs reproduced sel_rq3_per_seed_v2.csv (max diff 9.97e-17)",
+ "fast_auc_sha12": "66200c06261d",
+ "excluded_large_intermediate": "selection/sel_rq3_masked_predictions.pkl (94 MB, sha12 e1873f694fcf): excluded from submission, not committed",
+ "runtime_min": 9.546125988165537
+}

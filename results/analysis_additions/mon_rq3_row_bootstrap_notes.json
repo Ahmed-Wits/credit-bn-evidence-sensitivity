@@ -1,0 +1,19 @@
+{
+ "resamples": 2000,
+ "seed": 42,
+ "design": "one shared 2000 x 30000 multinomial count matrix (default_rng(42)) for every seed run, model and configuration; counts zeroed on rows invalid in that seed run; the 0% baseline of the run uses the same restricted counts",
+ "statistic": "D(m,b) = mean over the 10 mask seeds of [masked AUC - 0% AUC]; contrast C(b) = D(BN,b) - D(model,b); positive = the BN degrades less",
+ "point_estimate_max_diff_vs_summary": 2.3071822230491534e-16,
+ "reproduction": {
+  "max_per_seed_diff": 9.974659986866641e-17,
+  "max_summary_diff": 1.491862189340054e-16,
+  "gate": 1e-06,
+  "runs": 240,
+  "minutes": 32.401676567395526
+ },
+ "readings": {
+  "tie": 32,
+  "BN degrades less": 16
+ },
+ "runtime_min": 26.30638788143794
+}

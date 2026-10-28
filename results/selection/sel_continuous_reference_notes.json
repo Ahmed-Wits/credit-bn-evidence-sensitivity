@@ -1,0 +1,110 @@
+{
+ "stage": "selection",
+ "written": "2026-10-17 (Phase 8 Part A)",
+ "a0": {
+  "saved_binned_pred_max_abs_diff": {
+   "LR": 0.0,
+   "RF": 0.0
+  },
+  "tolerance": 1e-12,
+  "design_equality": "exact"
+ },
+ "continuous_columns": [
+  "Age",
+  "Debt Ratio",
+  "Monthly Income",
+  "Open Credit Lines",
+  "Number of Dependents",
+  "Real Estate Loans"
+ ],
+ "rf": {
+  "grid": {
+   "n_estimators": [
+    100,
+    200,
+    500
+   ],
+   "max_depth": [
+    5,
+    10,
+    15
+   ],
+   "min_samples_leaf": [
+    5,
+    10,
+    20
+   ]
+  },
+  "best_params": {
+   "max_depth": 10,
+   "min_samples_leaf": 20,
+   "n_estimators": 500
+  },
+  "cv_auc": 0.7155430217998339,
+  "grid_edge_flags": {
+   "n_estimators": "max edge",
+   "max_depth": "interior",
+   "min_samples_leaf": "max edge"
+  },
+  "minutes": 27.164598302046457
+ },
+ "lr": {
+  "C_grid": [
+   0.01,
+   0.1,
+   1,
+   10,
+   100
+  ],
+  "solver": "lbfgs",
+  "penalty": "l2",
+  "max_iter": 5000,
+  "variants_cv_auc_by_C": {
+   "V1": {
+    "0.01": 0.6411969459808621,
+    "0.1": 0.6413144857193414,
+    "1": 0.6413267601439271,
+    "10": 0.6413282131742161,
+    "100": 0.6413283356255874
+   },
+   "V2": {
+    "0.01": 0.642283196461937,
+    "0.1": 0.6422778906491587,
+    "1": 0.6422778069354591,
+    "10": 0.6422776065545934,
+    "100": 0.642277662215567
+   }
+  },
+  "selected_variant": "V2",
+  "selected_C": 0.01,
+  "selected_cv_auc": 0.642283196461937,
+  "other_variant": "V1",
+  "other_C": 100,
+  "other_cv_auc": 0.6413283356255874,
+  "variant_selection_rule": "5-fold CV AUC on train only; scaler fit inside each fold",
+  "note": "The binned LR grid used saga with l1/l2; the continuous LR uses lbfgs/l2 only because l1 needs saga and both binned winners were l2.",
+  "v2_transform": "log1p(clip(x,0)) on Debt Ratio, Monthly Income, Open Credit Lines, Real Estate Loans, Number of Dependents, then StandardScaler (train-only)"
+ },
+ "grids_source": "LR C grid and RF restricted grid as printed from frozen notebook cells 37/40 and 04 cell 7 (Cell 222)",
+ "row_counts": {
+  "all": 30000,
+  "bn_valid": 30000
+ },
+ "bootstrap": {
+  "resamples": 2000,
+  "seed": 42,
+  "same_resamples_all_comparisons": true
+ },
+ "classification_rule": "equal if |diff|<0.002; continuous higher if >+0.002 and CI excludes 0; continuous lower if <-0.002 and CI excludes 0; else inconclusive",
+ "classification": {
+  "continuous LR minus binned LR": "continuous lower",
+  "continuous RF minus binned RF": "continuous higher",
+  "continuous LR minus BN": "(not classified)",
+  "continuous RF minus BN": "(not classified)"
+ },
+ "no_thresholds_or_costs_derived": true,
+ "imputed_dependents": "used as-is (no int() truncation)",
+ "runtime_min": {
+  "rf_grid": 27.164598302046457
+ }
+}

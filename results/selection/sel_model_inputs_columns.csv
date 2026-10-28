@@ -1,0 +1,124 @@
+model,position,column
+monitoring_LR,1,"Credit Utilisation Rate (bin)_(0.0191, 0.0826]"
+monitoring_LR,2,"Credit Utilisation Rate (bin)_(0.0826, 0.271]"
+monitoring_LR,3,"Credit Utilisation Rate (bin)_(0.271, 0.698]"
+monitoring_LR,4,"Credit Utilisation Rate (bin)_(0.698, inf]"
+monitoring_LR,5,"Age (bin)_(39.0, 48.0]"
+monitoring_LR,6,"Age (bin)_(48.0, 56.0]"
+monitoring_LR,7,"Age (bin)_(56.0, 65.0]"
+monitoring_LR,8,"Age (bin)_(65.0, inf]"
+monitoring_LR,9,"Debt Ratio (bin)_(0.134, 0.288]"
+monitoring_LR,10,"Debt Ratio (bin)_(0.288, 0.468]"
+monitoring_LR,11,"Debt Ratio (bin)_(0.468, 4.0]"
+monitoring_LR,12,"Debt Ratio (bin)_(4.0, inf]"
+monitoring_LR,13,"Open Credit Lines (bin)_(12.0, inf]"
+monitoring_LR,14,"Open Credit Lines (bin)_(4.0, 6.0]"
+monitoring_LR,15,"Open Credit Lines (bin)_(6.0, 9.0]"
+monitoring_LR,16,"Open Credit Lines (bin)_(9.0, 12.0]"
+monitoring_LR,17,30-59 Days Past Due (bin)_1
+monitoring_LR,18,30-59 Days Past Due (bin)_2
+monitoring_LR,19,30-59 Days Past Due (bin)_3+
+monitoring_LR,20,90+ Days Late (bin)_1
+monitoring_LR,21,90+ Days Late (bin)_2
+monitoring_LR,22,90+ Days Late (bin)_3+
+monitoring_LR,23,60-89 Days Past Due (bin)_1
+monitoring_LR,24,60-89 Days Past Due (bin)_2
+monitoring_LR,25,60-89 Days Past Due (bin)_3+
+monitoring_LR,26,Real Estate Loans (bin)_1
+monitoring_LR,27,Real Estate Loans (bin)_2
+monitoring_LR,28,Real Estate Loans (bin)_3+
+monitoring_LR,29,"Monthly Income (bin)_(3000.0, 4541.0]"
+monitoring_LR,30,"Monthly Income (bin)_(4541.0, 6316.0]"
+monitoring_LR,31,"Monthly Income (bin)_(6316.0, 9083.0]"
+monitoring_LR,32,"Monthly Income (bin)_(9083.0, inf]"
+monitoring_LR,33,Number of Dependents (bin)_1
+monitoring_LR,34,Number of Dependents (bin)_2
+monitoring_LR,35,Number of Dependents (bin)_3+
+monitoring_RF,1,"Credit Utilisation Rate (bin)_(0.0191, 0.0826]"
+monitoring_RF,2,"Credit Utilisation Rate (bin)_(0.0826, 0.271]"
+monitoring_RF,3,"Credit Utilisation Rate (bin)_(0.271, 0.698]"
+monitoring_RF,4,"Credit Utilisation Rate (bin)_(0.698, inf]"
+monitoring_RF,5,"Age (bin)_(39.0, 48.0]"
+monitoring_RF,6,"Age (bin)_(48.0, 56.0]"
+monitoring_RF,7,"Age (bin)_(56.0, 65.0]"
+monitoring_RF,8,"Age (bin)_(65.0, inf]"
+monitoring_RF,9,"Debt Ratio (bin)_(0.134, 0.288]"
+monitoring_RF,10,"Debt Ratio (bin)_(0.288, 0.468]"
+monitoring_RF,11,"Debt Ratio (bin)_(0.468, 4.0]"
+monitoring_RF,12,"Debt Ratio (bin)_(4.0, inf]"
+monitoring_RF,13,"Open Credit Lines (bin)_(12.0, inf]"
+monitoring_RF,14,"Open Credit Lines (bin)_(4.0, 6.0]"
+monitoring_RF,15,"Open Credit Lines (bin)_(6.0, 9.0]"
+monitoring_RF,16,"Open Credit Lines (bin)_(9.0, 12.0]"
+monitoring_RF,17,30-59 Days Past Due (bin)_1
+monitoring_RF,18,30-59 Days Past Due (bin)_2
+monitoring_RF,19,30-59 Days Past Due (bin)_3+
+monitoring_RF,20,90+ Days Late (bin)_1
+monitoring_RF,21,90+ Days Late (bin)_2
+monitoring_RF,22,90+ Days Late (bin)_3+
+monitoring_RF,23,60-89 Days Past Due (bin)_1
+monitoring_RF,24,60-89 Days Past Due (bin)_2
+monitoring_RF,25,60-89 Days Past Due (bin)_3+
+monitoring_RF,26,Real Estate Loans (bin)_1
+monitoring_RF,27,Real Estate Loans (bin)_2
+monitoring_RF,28,Real Estate Loans (bin)_3+
+monitoring_RF,29,"Monthly Income (bin)_(3000.0, 4541.0]"
+monitoring_RF,30,"Monthly Income (bin)_(4541.0, 6316.0]"
+monitoring_RF,31,"Monthly Income (bin)_(6316.0, 9083.0]"
+monitoring_RF,32,"Monthly Income (bin)_(9083.0, inf]"
+monitoring_RF,33,Number of Dependents (bin)_1
+monitoring_RF,34,Number of Dependents (bin)_2
+monitoring_RF,35,Number of Dependents (bin)_3+
+selection_LR,1,"Age (bin)_(39.0, 48.0]"
+selection_LR,2,"Age (bin)_(48.0, 56.0]"
+selection_LR,3,"Age (bin)_(56.0, 65.0]"
+selection_LR,4,"Age (bin)_(65.0, inf]"
+selection_LR,5,"Debt Ratio (bin)_(0.134, 0.288]"
+selection_LR,6,"Debt Ratio (bin)_(0.288, 0.468]"
+selection_LR,7,"Debt Ratio (bin)_(0.468, 4.0]"
+selection_LR,8,"Debt Ratio (bin)_(4.0, inf]"
+selection_LR,9,"Open Credit Lines (bin)_(12.0, inf]"
+selection_LR,10,"Open Credit Lines (bin)_(4.0, 6.0]"
+selection_LR,11,"Open Credit Lines (bin)_(6.0, 9.0]"
+selection_LR,12,"Open Credit Lines (bin)_(9.0, 12.0]"
+selection_LR,13,Real Estate Loans (bin)_1
+selection_LR,14,Real Estate Loans (bin)_2
+selection_LR,15,Real Estate Loans (bin)_3+
+selection_LR,16,"Monthly Income (bin)_(3000.0, 4541.0]"
+selection_LR,17,"Monthly Income (bin)_(4541.0, 6316.0]"
+selection_LR,18,"Monthly Income (bin)_(6316.0, 9083.0]"
+selection_LR,19,"Monthly Income (bin)_(9083.0, inf]"
+selection_LR,20,Number of Dependents (bin)_1
+selection_LR,21,Number of Dependents (bin)_2
+selection_LR,22,Number of Dependents (bin)_3+
+selection_RF,1,"Age (bin)_(39.0, 48.0]"
+selection_RF,2,"Age (bin)_(48.0, 56.0]"
+selection_RF,3,"Age (bin)_(56.0, 65.0]"
+selection_RF,4,"Age (bin)_(65.0, inf]"
+selection_RF,5,"Debt Ratio (bin)_(0.134, 0.288]"
+selection_RF,6,"Debt Ratio (bin)_(0.288, 0.468]"
+selection_RF,7,"Debt Ratio (bin)_(0.468, 4.0]"
+selection_RF,8,"Debt Ratio (bin)_(4.0, inf]"
+selection_RF,9,"Open Credit Lines (bin)_(12.0, inf]"
+selection_RF,10,"Open Credit Lines (bin)_(4.0, 6.0]"
+selection_RF,11,"Open Credit Lines (bin)_(6.0, 9.0]"
+selection_RF,12,"Open Credit Lines (bin)_(9.0, 12.0]"
+selection_RF,13,Real Estate Loans (bin)_1
+selection_RF,14,Real Estate Loans (bin)_2
+selection_RF,15,Real Estate Loans (bin)_3+
+selection_RF,16,"Monthly Income (bin)_(3000.0, 4541.0]"
+selection_RF,17,"Monthly Income (bin)_(4541.0, 6316.0]"
+selection_RF,18,"Monthly Income (bin)_(6316.0, 9083.0]"
+selection_RF,19,"Monthly Income (bin)_(9083.0, inf]"
+selection_RF,20,Number of Dependents (bin)_1
+selection_RF,21,Number of Dependents (bin)_2
+selection_RF,22,Number of Dependents (bin)_3+
+BN_selection,1,Default
+BN_selection,2,Age (bin)
+BN_selection,3,Debt Ratio (bin)
+BN_selection,4,Monthly Income (bin)
+BN_selection,5,Number of Dependents (bin)
+BN_selection,6,Real Estate Loans (bin)
+BN_selection,7,Open Credit Lines (bin)
+BN_selection,8,M_Income
+BN_selection,9,M_Dependents

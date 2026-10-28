@@ -1,0 +1,299 @@
+{
+ "checked": "2026-10-17",
+ "note": "Written by the coding instance; row-level identity check of the rebuilt selection design vs saved Phase 5 predictions run the same day (Cell 220). Counts and names read from the saved objects at write time.",
+ "models": {
+  "monitoring_LR": {
+   "n_columns": 35,
+   "representation": "one-hot dummies of the saved 5-bin edges for Credit Utilisation, Age, Debt Ratio, Monthly Income, Open Credit Lines (4 dummies each, first bin dropped); natural categories (past-due counts, Real Estate Loans, Number of Dependents) as dummies for 1, 2, 3+ (0 dropped); no scaling, no continuous inputs",
+   "scaling": "none",
+   "columns": [
+    "Credit Utilisation Rate (bin)_(0.0191, 0.0826]",
+    "Credit Utilisation Rate (bin)_(0.0826, 0.271]",
+    "Credit Utilisation Rate (bin)_(0.271, 0.698]",
+    "Credit Utilisation Rate (bin)_(0.698, inf]",
+    "Age (bin)_(39.0, 48.0]",
+    "Age (bin)_(48.0, 56.0]",
+    "Age (bin)_(56.0, 65.0]",
+    "Age (bin)_(65.0, inf]",
+    "Debt Ratio (bin)_(0.134, 0.288]",
+    "Debt Ratio (bin)_(0.288, 0.468]",
+    "Debt Ratio (bin)_(0.468, 4.0]",
+    "Debt Ratio (bin)_(4.0, inf]",
+    "Open Credit Lines (bin)_(12.0, inf]",
+    "Open Credit Lines (bin)_(4.0, 6.0]",
+    "Open Credit Lines (bin)_(6.0, 9.0]",
+    "Open Credit Lines (bin)_(9.0, 12.0]",
+    "30-59 Days Past Due (bin)_1",
+    "30-59 Days Past Due (bin)_2",
+    "30-59 Days Past Due (bin)_3+",
+    "90+ Days Late (bin)_1",
+    "90+ Days Late (bin)_2",
+    "90+ Days Late (bin)_3+",
+    "60-89 Days Past Due (bin)_1",
+    "60-89 Days Past Due (bin)_2",
+    "60-89 Days Past Due (bin)_3+",
+    "Real Estate Loans (bin)_1",
+    "Real Estate Loans (bin)_2",
+    "Real Estate Loans (bin)_3+",
+    "Monthly Income (bin)_(3000.0, 4541.0]",
+    "Monthly Income (bin)_(4541.0, 6316.0]",
+    "Monthly Income (bin)_(6316.0, 9083.0]",
+    "Monthly Income (bin)_(9083.0, inf]",
+    "Number of Dependents (bin)_1",
+    "Number of Dependents (bin)_2",
+    "Number of Dependents (bin)_3+"
+   ],
+   "fit": {
+    "C": 100,
+    "class_weight": "balanced",
+    "max_iter": 1000,
+    "penalty": "l2",
+    "random_state": 42,
+    "solver": "saga",
+    "tol": 0.0001
+   },
+   "cv_best_params_file": "full_variable/tables/best_params.json",
+   "imputer": {
+    "object": "full_variable/models/imputer.pkl",
+    "params": {
+     "add_indicator": false,
+     "estimator": null,
+     "fill_value": null,
+     "imputation_order": "ascending",
+     "initial_strategy": "mean",
+     "keep_empty_features": false,
+     "max_iter": 10,
+     "max_value": Infinity,
+     "min_value": -Infinity,
+     "missing_values": NaN,
+     "n_nearest_features": null,
+     "random_state": 42,
+     "sample_posterior": false,
+     "skip_complete": false,
+     "tol": 0.001,
+     "verbose": 0
+    },
+    "fit_scope": "monitoring OOF predictions use the locked imputer fitted on ALL train rows (feature columns only, no labels), so they are not fully out-of-sample with respect to imputation"
+   },
+   "encoder": {
+    "object": "full_variable/models/encoder.pkl",
+    "type": "OneHotEncoder",
+    "input_columns": [
+     "Credit Utilisation Rate (bin)",
+     "Age (bin)",
+     "Debt Ratio (bin)",
+     "Open Credit Lines (bin)",
+     "30-59 Days Past Due (bin)",
+     "90+ Days Late (bin)",
+     "60-89 Days Past Due (bin)",
+     "Real Estate Loans (bin)",
+     "Monthly Income (bin)",
+     "Number of Dependents (bin)"
+    ]
+   },
+   "sources": [
+    "full_variable/models/lr_final.pkl (feature_names_in_, get_params)",
+    "preprocessing_artifacts.pkl encoded_feature_names",
+    "Data/processed/X_train_df.pkl"
+   ]
+  },
+  "monitoring_RF": {
+   "n_columns": 35,
+   "representation": "one-hot dummies of the saved 5-bin edges for Credit Utilisation, Age, Debt Ratio, Monthly Income, Open Credit Lines (4 dummies each, first bin dropped); natural categories (past-due counts, Real Estate Loans, Number of Dependents) as dummies for 1, 2, 3+ (0 dropped); no scaling, no continuous inputs",
+   "scaling": "none",
+   "columns": [
+    "Credit Utilisation Rate (bin)_(0.0191, 0.0826]",
+    "Credit Utilisation Rate (bin)_(0.0826, 0.271]",
+    "Credit Utilisation Rate (bin)_(0.271, 0.698]",
+    "Credit Utilisation Rate (bin)_(0.698, inf]",
+    "Age (bin)_(39.0, 48.0]",
+    "Age (bin)_(48.0, 56.0]",
+    "Age (bin)_(56.0, 65.0]",
+    "Age (bin)_(65.0, inf]",
+    "Debt Ratio (bin)_(0.134, 0.288]",
+    "Debt Ratio (bin)_(0.288, 0.468]",
+    "Debt Ratio (bin)_(0.468, 4.0]",
+    "Debt Ratio (bin)_(4.0, inf]",
+    "Open Credit Lines (bin)_(12.0, inf]",
+    "Open Credit Lines (bin)_(4.0, 6.0]",
+    "Open Credit Lines (bin)_(6.0, 9.0]",
+    "Open Credit Lines (bin)_(9.0, 12.0]",
+    "30-59 Days Past Due (bin)_1",
+    "30-59 Days Past Due (bin)_2",
+    "30-59 Days Past Due (bin)_3+",
+    "90+ Days Late (bin)_1",
+    "90+ Days Late (bin)_2",
+    "90+ Days Late (bin)_3+",
+    "60-89 Days Past Due (bin)_1",
+    "60-89 Days Past Due (bin)_2",
+    "60-89 Days Past Due (bin)_3+",
+    "Real Estate Loans (bin)_1",
+    "Real Estate Loans (bin)_2",
+    "Real Estate Loans (bin)_3+",
+    "Monthly Income (bin)_(3000.0, 4541.0]",
+    "Monthly Income (bin)_(4541.0, 6316.0]",
+    "Monthly Income (bin)_(6316.0, 9083.0]",
+    "Monthly Income (bin)_(9083.0, inf]",
+    "Number of Dependents (bin)_1",
+    "Number of Dependents (bin)_2",
+    "Number of Dependents (bin)_3+"
+   ],
+   "fit": {
+    "class_weight": "balanced",
+    "max_depth": 15,
+    "max_features": "sqrt",
+    "min_samples_leaf": 10,
+    "n_estimators": 500,
+    "random_state": 42
+   },
+   "sources": [
+    "full_variable/models/rf_final_restricted.pkl",
+    "same design as monitoring LR"
+   ]
+  },
+  "selection_LR": {
+   "n_columns": 22,
+   "representation": "one-hot dummies of the saved 5-bin edges for Credit Utilisation, Age, Debt Ratio, Monthly Income, Open Credit Lines (4 dummies each, first bin dropped); natural categories (past-due counts, Real Estate Loans, Number of Dependents) as dummies for 1, 2, 3+ (0 dropped); no scaling, no continuous inputs (six variables: Age, Debt Ratio, Monthly Income, Open Credit Lines, Real Estate Loans, Number of Dependents)",
+   "scaling": "none",
+   "columns": [
+    "Age (bin)_(39.0, 48.0]",
+    "Age (bin)_(48.0, 56.0]",
+    "Age (bin)_(56.0, 65.0]",
+    "Age (bin)_(65.0, inf]",
+    "Debt Ratio (bin)_(0.134, 0.288]",
+    "Debt Ratio (bin)_(0.288, 0.468]",
+    "Debt Ratio (bin)_(0.468, 4.0]",
+    "Debt Ratio (bin)_(4.0, inf]",
+    "Open Credit Lines (bin)_(12.0, inf]",
+    "Open Credit Lines (bin)_(4.0, 6.0]",
+    "Open Credit Lines (bin)_(6.0, 9.0]",
+    "Open Credit Lines (bin)_(9.0, 12.0]",
+    "Real Estate Loans (bin)_1",
+    "Real Estate Loans (bin)_2",
+    "Real Estate Loans (bin)_3+",
+    "Monthly Income (bin)_(3000.0, 4541.0]",
+    "Monthly Income (bin)_(4541.0, 6316.0]",
+    "Monthly Income (bin)_(6316.0, 9083.0]",
+    "Monthly Income (bin)_(9083.0, inf]",
+    "Number of Dependents (bin)_1",
+    "Number of Dependents (bin)_2",
+    "Number of Dependents (bin)_3+"
+   ],
+   "fit": {
+    "C": 1,
+    "class_weight": "balanced",
+    "max_iter": 1000,
+    "penalty": "l2",
+    "random_state": 42,
+    "solver": "saga",
+    "tol": 0.0001
+   },
+   "grid_best_params": {
+    "C": 1,
+    "penalty": "l2"
+   },
+   "imputer": {
+    "fit_scope": "not asserted here; extracted from build_design source",
+    "source_lines": [
+     "from sklearn.impute import IterativeImputer",
+     "imp = IterativeImputer(random_state=42).fit(tr)",
+     "tr = pd.DataFrame(imp.transform(tr), columns=imp_cols, index=tr.index)",
+     "te = pd.DataFrame(imp.transform(te), columns=imp_cols, index=te.index)",
+     "tr['Monthly Income'], te['Monthly Income'] = np.expm1(tr['Monthly Income']).clip(lower=0), np.expm1(te['Monthly Income']).clip(lower=0)",
+     "enc = OneHotEncoder(drop='first', sparse_output=False, handle_unknown='error').fit(s_tr)",
+     "return dict(Xtr=pd.DataFrame(enc.transform(s_tr), columns=names, index=tr.index),",
+     "Xte=pd.DataFrame(enc.transform(s_te), columns=names, index=te.index),"
+    ]
+   },
+   "sources": [
+    "selection/models/sel_lr_grid.pkl",
+    "selection/notebooks/00_precheck.ipynb code cell 3 (build_design, run in memory)",
+    "column names are rebuilt, not stored in the grid object (fitted on bare arrays)"
+   ]
+  },
+  "selection_RF": {
+   "n_columns": 22,
+   "representation": "one-hot dummies of the saved 5-bin edges for Credit Utilisation, Age, Debt Ratio, Monthly Income, Open Credit Lines (4 dummies each, first bin dropped); natural categories (past-due counts, Real Estate Loans, Number of Dependents) as dummies for 1, 2, 3+ (0 dropped); no scaling, no continuous inputs",
+   "scaling": "none",
+   "columns": [
+    "Age (bin)_(39.0, 48.0]",
+    "Age (bin)_(48.0, 56.0]",
+    "Age (bin)_(56.0, 65.0]",
+    "Age (bin)_(65.0, inf]",
+    "Debt Ratio (bin)_(0.134, 0.288]",
+    "Debt Ratio (bin)_(0.288, 0.468]",
+    "Debt Ratio (bin)_(0.468, 4.0]",
+    "Debt Ratio (bin)_(4.0, inf]",
+    "Open Credit Lines (bin)_(12.0, inf]",
+    "Open Credit Lines (bin)_(4.0, 6.0]",
+    "Open Credit Lines (bin)_(6.0, 9.0]",
+    "Open Credit Lines (bin)_(9.0, 12.0]",
+    "Real Estate Loans (bin)_1",
+    "Real Estate Loans (bin)_2",
+    "Real Estate Loans (bin)_3+",
+    "Monthly Income (bin)_(3000.0, 4541.0]",
+    "Monthly Income (bin)_(4541.0, 6316.0]",
+    "Monthly Income (bin)_(6316.0, 9083.0]",
+    "Monthly Income (bin)_(9083.0, inf]",
+    "Number of Dependents (bin)_1",
+    "Number of Dependents (bin)_2",
+    "Number of Dependents (bin)_3+"
+   ],
+   "fit": {
+    "class_weight": "balanced",
+    "max_depth": 10,
+    "max_features": "sqrt",
+    "min_samples_leaf": 20,
+    "n_estimators": 500,
+    "random_state": 42
+   },
+   "grid_best_params": {
+    "max_depth": 10,
+    "min_samples_leaf": 20,
+    "n_estimators": 500
+   },
+   "sources": [
+    "selection/models/sel_rf_grid.pkl",
+    "same design as selection LR"
+   ]
+  },
+  "BN_selection": {
+   "n_nodes": 9,
+   "representation": "discrete nodes, continuous variables binned into 5 equal-frequency bins (saved edges in preprocessing_artifacts.pkl); natural categories kept; missingness indicators M_Income, M_Dependents; no one-hot design, no scaling",
+   "columns": [
+    "Default",
+    "Age (bin)",
+    "Debt Ratio (bin)",
+    "Monthly Income (bin)",
+    "Number of Dependents (bin)",
+    "Real Estate Loans (bin)",
+    "Open Credit Lines (bin)",
+    "M_Income",
+    "M_Dependents"
+   ],
+   "fit": {
+    "file": "sel_bn_final.pkl",
+    "sha12": "804a1ffc4309",
+    "iterations": 9,
+    "stop_reason": "gain < 0.01 for 3 consecutive iterations",
+    "runtime_s": 10.9,
+    "train_ll": -998922.7326069719,
+    "test_ll_descriptive": -249849.9850441574,
+    "stopping_rule": "train gain < 0.01 for 3 consecutive its, max 200",
+    "zero_weight_rows_initial": 16,
+    "zero_weight_rows_final": 16,
+    "ever_regained_patterns": 0,
+    "default_cpd_fit_rows": 119983,
+    "identity_i_all_rows": 9.888445968921078e-05,
+    "identity_ii_minus_zero_weight": 1.1102230246251565e-16,
+    "pgmpy": "1.1.2",
+    "seed_note": "PYTHONHASHSEED=0; EM deterministic"
+   },
+   "sources": [
+    "Data/processed/sel_node_order.json",
+    "selection/models/sel_bn_final.json",
+    "selection/tables/sel_em_history.csv"
+   ]
+  }
+ }
+}

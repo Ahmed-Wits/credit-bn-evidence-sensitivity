@@ -1,0 +1,325 @@
+stage,variable,level,mechanism,score,mean_masked_auc,mean_baseline_auc
+Application,Age,0.2,mcar,BN,0.6550412576971134,0.662648858832959
+Application,Age,0.2,mcar,LR_std,0.6804264000055736,0.690399346835796
+Application,Age,0.2,mcar,RF_std,0.6810189790592311,0.6925814217447528
+Application,Age,0.2,mcar,LR_A,0.6811431718151439,0.690399346835796
+Application,Age,0.2,mcar,RF_A,0.6843666933307947,0.6925814217447528
+Application,Age,0.2,mcar,LR_B,0.6826023787417522,0.690399346835796
+Application,Age,0.2,mcar,RF_B,0.6848482826504808,0.6925814217447528
+Application,Age,0.2,mcar,LR_Aown,0.6811431718151439,0.6896412535801533
+Application,Age,0.2,mcar,RF_Aown,0.6843666933307947,0.6929458548252427
+Application,Age,0.4,mcar,BN,0.6452105335379138,0.6626475247941771
+Application,Age,0.4,mcar,LR_std,0.6707482860523815,0.6904010812538759
+Application,Age,0.4,mcar,RF_std,0.6700831823304704,0.6925818480041085
+Application,Age,0.4,mcar,LR_A,0.6723209706458384,0.6904010812538759
+Application,Age,0.4,mcar,RF_A,0.6756468961983545,0.6925818480041085
+Application,Age,0.4,mcar,LR_B,0.6739304161219447,0.6904010812538759
+Application,Age,0.4,mcar,RF_B,0.6758807389966941,0.6925818480041085
+Application,Age,0.4,mcar,LR_Aown,0.6723209706458384,0.688388755103627
+Application,Age,0.4,mcar,RF_Aown,0.6756468961983545,0.6920057997007788
+Application,Age,0.5,mcar,BN,0.6400374817756388,0.662645233232897
+Application,Age,0.5,mcar,LR_std,0.6656886099279475,0.6904030068714281
+Application,Age,0.5,mcar,RF_std,0.6646158768862863,0.6925820420128685
+Application,Age,0.5,mcar,LR_A,0.6678338187709044,0.6904030068714281
+Application,Age,0.5,mcar,RF_A,0.6705536593242767,0.6925820420128685
+Application,Age,0.5,mcar,LR_B,0.6694729986722044,0.6904030068714281
+Application,Age,0.5,mcar,RF_B,0.6710635243666412,0.6925820420128685
+Application,Age,0.5,mcar,LR_Aown,0.6678338187709044,0.6874059753458548
+Application,Age,0.5,mcar,RF_Aown,0.6705536593242767,0.6913143284137545
+Application,Age,0.2,dependent,BN,0.6531374574213624,0.6626479014057731
+Application,Age,0.2,dependent,LR_std,0.6805498010337103,0.6903995379113501
+Application,Age,0.2,dependent,RF_std,0.6822966852953342,0.6925811894637022
+Application,Age,0.2,dependent,LR_A,0.680802312079904,0.6903995379113501
+Application,Age,0.2,dependent,RF_A,0.685114314962871,0.6925811894637022
+Application,Age,0.2,dependent,LR_B,0.6820513756054705,0.6903995379113501
+Application,Age,0.2,dependent,RF_B,0.6845690140955571,0.6925811894637022
+Application,Age,0.2,dependent,LR_Aown,0.680802312079904,0.6893040523351954
+Application,Age,0.2,dependent,RF_Aown,0.685114314962871,0.6927381345987971
+Application,Age,0.4,dependent,BN,0.6403324027687598,0.6626431458756106
+Application,Age,0.4,dependent,LR_std,0.6705565940343172,0.6904078280984773
+Application,Age,0.4,dependent,RF_std,0.6722940924933882,0.6925837853834915
+Application,Age,0.4,dependent,LR_A,0.6716916798615621,0.6904078280984773
+Application,Age,0.4,dependent,RF_A,0.6762512567984399,0.6925837853834915
+Application,Age,0.4,dependent,LR_B,0.6730494261640085,0.6904078280984773
+Application,Age,0.4,dependent,RF_B,0.6751103627391842,0.6925837853834915
+Application,Age,0.4,dependent,LR_Aown,0.6716916798615621,0.687901211467173
+Application,Age,0.4,dependent,RF_Aown,0.6762512567984399,0.6915278070015981
+Application,Age,0.5,dependent,BN,0.6350229464641051,0.6626401010434823
+Application,Age,0.5,dependent,LR_std,0.6654569190179591,0.6904128404630396
+Application,Age,0.5,dependent,RF_std,0.6669260984715123,0.6925852964882916
+Application,Age,0.5,dependent,LR_A,0.6671202552738735,0.6904128404630396
+Application,Age,0.5,dependent,RF_A,0.6722633003581446,0.6925852964882916
+Application,Age,0.5,dependent,LR_B,0.6686859675035677,0.6904128404630396
+Application,Age,0.5,dependent,RF_B,0.670534702957743,0.6925852964882916
+Application,Age,0.5,dependent,LR_Aown,0.6671202552738735,0.6868386418072051
+Application,Age,0.5,dependent,RF_Aown,0.6722633003581446,0.6914764544022721
+Application,Debt Ratio,0.2,mcar,BN,0.6604396305182748,0.6626511502989267
+Application,Debt Ratio,0.2,mcar,LR_std,0.6815211898811642,0.6903974213421618
+Application,Debt Ratio,0.2,mcar,RF_std,0.6868103762739963,0.6925812277664474
+Application,Debt Ratio,0.2,mcar,LR_A,0.6851067972148571,0.6903974213421618
+Application,Debt Ratio,0.2,mcar,RF_A,0.6899959709584762,0.6925812277664474
+Application,Debt Ratio,0.2,mcar,LR_B,0.6878513022676387,0.6903974213421618
+Application,Debt Ratio,0.2,mcar,RF_B,0.6896997299571218,0.6925812277664474
+Application,Debt Ratio,0.2,mcar,LR_Aown,0.6851067972148571,0.6890702427713534
+Application,Debt Ratio,0.2,mcar,RF_Aown,0.6899959709584762,0.6928728277537982
+Application,Debt Ratio,0.4,mcar,BN,0.658127418549536,0.6626511502989267
+Application,Debt Ratio,0.4,mcar,LR_std,0.674384368601625,0.6903974213421618
+Application,Debt Ratio,0.4,mcar,RF_std,0.6816487865886276,0.6925812277664474
+Application,Debt Ratio,0.4,mcar,LR_A,0.6822985285491396,0.6903974213421618
+Application,Debt Ratio,0.4,mcar,RF_A,0.68717237892944,0.6925812277664474
+Application,Debt Ratio,0.4,mcar,LR_B,0.6854970334478147,0.6903974213421618
+Application,Debt Ratio,0.4,mcar,RF_B,0.6872593645373972,0.6925812277664474
+Application,Debt Ratio,0.4,mcar,LR_Aown,0.6822985285491396,0.687244801017638
+Application,Debt Ratio,0.4,mcar,RF_Aown,0.68717237892944,0.691909866341469
+Application,Debt Ratio,0.5,mcar,BN,0.6567829372808378,0.6626511502989267
+Application,Debt Ratio,0.5,mcar,LR_std,0.6712807871373541,0.6903974213421618
+Application,Debt Ratio,0.5,mcar,RF_std,0.6796142880876038,0.6925812277664474
+Application,Debt Ratio,0.5,mcar,LR_A,0.6812301813781316,0.6903974213421618
+Application,Debt Ratio,0.5,mcar,RF_A,0.6855429376193379,0.6925812277664474
+Application,Debt Ratio,0.5,mcar,LR_B,0.6840525494622081,0.6903974213421618
+Application,Debt Ratio,0.5,mcar,RF_B,0.6857734855574049,0.6925812277664474
+Application,Debt Ratio,0.5,mcar,LR_Aown,0.6812301813781316,0.6866537264625541
+Application,Debt Ratio,0.5,mcar,RF_Aown,0.6855429376193379,0.691820288535671
+Application,Debt Ratio,0.2,dependent,BN,0.6605748470402846,0.6626511502989267
+Application,Debt Ratio,0.2,dependent,LR_std,0.6823750651946664,0.6903974213421618
+Application,Debt Ratio,0.2,dependent,RF_std,0.687260711411327,0.6925812277664474
+Application,Debt Ratio,0.2,dependent,LR_A,0.6847756898163594,0.6903974213421618
+Application,Debt Ratio,0.2,dependent,RF_A,0.6894244180582658,0.6925812277664474
+Application,Debt Ratio,0.2,dependent,LR_B,0.6877081969126121,0.6903974213421618
+Application,Debt Ratio,0.2,dependent,RF_B,0.6896130418729031,0.6925812277664474
+Application,Debt Ratio,0.2,dependent,LR_Aown,0.6847756898163594,0.6890364373046667
+Application,Debt Ratio,0.2,dependent,RF_Aown,0.6894244180582658,0.6921180349715105
+Application,Debt Ratio,0.4,dependent,BN,0.6582023669171418,0.6626511502989267
+Application,Debt Ratio,0.4,dependent,LR_std,0.6768328090294002,0.6903974213421618
+Application,Debt Ratio,0.4,dependent,RF_std,0.6832940750463544,0.6925812277664474
+Application,Debt Ratio,0.4,dependent,LR_A,0.6814825198122751,0.6903974213421618
+Application,Debt Ratio,0.4,dependent,RF_A,0.6872534274244733,0.6925812277664474
+Application,Debt Ratio,0.4,dependent,LR_B,0.685034930979392,0.6903974213421618
+Application,Debt Ratio,0.4,dependent,RF_B,0.6867824785241754,0.6925812277664474
+Application,Debt Ratio,0.4,dependent,LR_Aown,0.6814825198122751,0.6872945961582915
+Application,Debt Ratio,0.4,dependent,RF_Aown,0.6872534274244733,0.6917703508686757
+Application,Debt Ratio,0.5,dependent,BN,0.657158487955856,0.6626511502989267
+Application,Debt Ratio,0.5,dependent,LR_std,0.6735653240536807,0.6903974213421618
+Application,Debt Ratio,0.5,dependent,RF_std,0.6813792202829236,0.6925812277664474
+Application,Debt Ratio,0.5,dependent,LR_A,0.6794354861194931,0.6903974213421618
+Application,Debt Ratio,0.5,dependent,RF_A,0.6860537947861192,0.6925812277664474
+Application,Debt Ratio,0.5,dependent,LR_B,0.6837216273479545,0.6903974213421618
+Application,Debt Ratio,0.5,dependent,RF_B,0.6851421464199833,0.6925812277664474
+Application,Debt Ratio,0.5,dependent,LR_Aown,0.6794354861194931,0.6862504125469503
+Application,Debt Ratio,0.5,dependent,RF_Aown,0.6860537947861192,0.6913857969828064
+After acceptance,Credit Utilisation Rate,0.2,mcar,BN,0.8470745765616623,0.8518920315722166
+After acceptance,Credit Utilisation Rate,0.2,mcar,LR_std,0.856571502810082,0.8616976927892676
+After acceptance,Credit Utilisation Rate,0.2,mcar,RF_std,0.8544251937863876,0.8601503977290005
+After acceptance,Credit Utilisation Rate,0.2,mcar,LR_A,0.8568075168904082,0.8616976927892676
+After acceptance,Credit Utilisation Rate,0.2,mcar,RF_A,0.8547929213520316,0.8601503977290005
+After acceptance,Credit Utilisation Rate,0.2,mcar,LR_B,0.8574615412120256,0.8616976927892676
+After acceptance,Credit Utilisation Rate,0.2,mcar,RF_B,0.8562462771283332,0.8601503977290005
+After acceptance,Credit Utilisation Rate,0.2,mcar,LR_Aown,0.8568075168904082,0.8615789835518199
+After acceptance,Credit Utilisation Rate,0.2,mcar,RF_Aown,0.8547929213520316,0.8593831524547435
+After acceptance,Credit Utilisation Rate,0.4,mcar,BN,0.8427301162918954,0.8518920315722166
+After acceptance,Credit Utilisation Rate,0.4,mcar,LR_std,0.850875187486675,0.8616976927892676
+After acceptance,Credit Utilisation Rate,0.4,mcar,RF_std,0.8481066237757136,0.8601503977290005
+After acceptance,Credit Utilisation Rate,0.4,mcar,LR_A,0.8516243397004868,0.8616976927892676
+After acceptance,Credit Utilisation Rate,0.4,mcar,RF_A,0.8504291758468744,0.8601503977290005
+After acceptance,Credit Utilisation Rate,0.4,mcar,LR_B,0.8530015755077868,0.8616976927892676
+After acceptance,Credit Utilisation Rate,0.4,mcar,RF_B,0.8519097964947561,0.8601503977290005
+After acceptance,Credit Utilisation Rate,0.4,mcar,LR_Aown,0.8516243397004868,0.8610863308537817
+After acceptance,Credit Utilisation Rate,0.4,mcar,RF_Aown,0.8504291758468744,0.8594511519022593
+After acceptance,Credit Utilisation Rate,0.5,mcar,BN,0.8392815581057775,0.8518920315722166
+After acceptance,Credit Utilisation Rate,0.5,mcar,LR_std,0.8472986216335437,0.8616976927892676
+After acceptance,Credit Utilisation Rate,0.5,mcar,RF_std,0.8444413804369353,0.8601503977290005
+After acceptance,Credit Utilisation Rate,0.5,mcar,LR_A,0.848580612738688,0.8616976927892676
+After acceptance,Credit Utilisation Rate,0.5,mcar,RF_A,0.8471458778968536,0.8601503977290005
+After acceptance,Credit Utilisation Rate,0.5,mcar,LR_B,0.8500057522218191,0.8616976927892676
+After acceptance,Credit Utilisation Rate,0.5,mcar,RF_B,0.8490852397952455,0.8601503977290005
+After acceptance,Credit Utilisation Rate,0.5,mcar,LR_Aown,0.848580612738688,0.8608978120602628
+After acceptance,Credit Utilisation Rate,0.5,mcar,RF_Aown,0.8471458778968536,0.8590192403839321
+After acceptance,Credit Utilisation Rate,0.2,dependent,BN,0.8477236895148437,0.8518920315722166
+After acceptance,Credit Utilisation Rate,0.2,dependent,LR_std,0.8563648909561181,0.8616976927892676
+After acceptance,Credit Utilisation Rate,0.2,dependent,RF_std,0.8543082402650711,0.8601503977290005
+After acceptance,Credit Utilisation Rate,0.2,dependent,LR_A,0.8568129900166717,0.8616976927892676
+After acceptance,Credit Utilisation Rate,0.2,dependent,RF_A,0.8555460459961959,0.8601503977290005
+After acceptance,Credit Utilisation Rate,0.2,dependent,LR_B,0.8575752516964863,0.8616976927892676
+After acceptance,Credit Utilisation Rate,0.2,dependent,RF_B,0.8566272880374027,0.8601503977290005
+After acceptance,Credit Utilisation Rate,0.2,dependent,LR_Aown,0.8568129900166717,0.8615487467138282
+After acceptance,Credit Utilisation Rate,0.2,dependent,RF_Aown,0.8555460459961959,0.8596198843367382
+After acceptance,Credit Utilisation Rate,0.4,dependent,BN,0.8427899060500159,0.8518920315722166
+After acceptance,Credit Utilisation Rate,0.4,dependent,LR_std,0.8501778231028168,0.8616976927892676
+After acceptance,Credit Utilisation Rate,0.4,dependent,RF_std,0.8474296253423044,0.8601503977290005
+After acceptance,Credit Utilisation Rate,0.4,dependent,LR_A,0.8517083840215743,0.8616976927892676
+After acceptance,Credit Utilisation Rate,0.4,dependent,RF_A,0.8508437263732906,0.8601503977290005
+After acceptance,Credit Utilisation Rate,0.4,dependent,LR_B,0.852773607047903,0.8616976927892676
+After acceptance,Credit Utilisation Rate,0.4,dependent,RF_B,0.8522742756734696,0.8601503977290005
+After acceptance,Credit Utilisation Rate,0.4,dependent,LR_Aown,0.8517083840215743,0.8611748567539832
+After acceptance,Credit Utilisation Rate,0.4,dependent,RF_Aown,0.8508437263732906,0.8596286852093712
+After acceptance,Credit Utilisation Rate,0.5,dependent,BN,0.8397793031831071,0.8518920315722166
+After acceptance,Credit Utilisation Rate,0.5,dependent,LR_std,0.8467285515734255,0.8616976927892676
+After acceptance,Credit Utilisation Rate,0.5,dependent,RF_std,0.8437891189648818,0.8601503977290005
+After acceptance,Credit Utilisation Rate,0.5,dependent,LR_A,0.8490580854918729,0.8616976927892676
+After acceptance,Credit Utilisation Rate,0.5,dependent,RF_A,0.8480837370484726,0.8601503977290005
+After acceptance,Credit Utilisation Rate,0.5,dependent,LR_B,0.8497906587163369,0.8616976927892676
+After acceptance,Credit Utilisation Rate,0.5,dependent,RF_B,0.8497090914797656,0.8601503977290005
+After acceptance,Credit Utilisation Rate,0.5,dependent,LR_Aown,0.8490580854918729,0.8609847240213087
+After acceptance,Credit Utilisation Rate,0.5,dependent,RF_Aown,0.8480837370484726,0.8597060383705564
+After acceptance,30-59 Days Past Due,0.2,mcar,BN,0.8480063152279975,0.8518920315722166
+After acceptance,30-59 Days Past Due,0.2,mcar,LR_std,0.857322888680018,0.8616976927892676
+After acceptance,30-59 Days Past Due,0.2,mcar,RF_std,0.85573832856716,0.8601503977290005
+After acceptance,30-59 Days Past Due,0.2,mcar,LR_A,0.8578323700375495,0.8616976927892676
+After acceptance,30-59 Days Past Due,0.2,mcar,RF_A,0.8549695487131868,0.8601503977290005
+After acceptance,30-59 Days Past Due,0.2,mcar,LR_B,0.8581612524952524,0.8616976927892676
+After acceptance,30-59 Days Past Due,0.2,mcar,RF_B,0.856023325255018,0.8601503977290005
+After acceptance,30-59 Days Past Due,0.2,mcar,LR_Aown,0.8578323700375495,0.8615683904042133
+After acceptance,30-59 Days Past Due,0.2,mcar,RF_Aown,0.8549695487131868,0.8590572437468106
+After acceptance,30-59 Days Past Due,0.4,mcar,BN,0.8437149901152916,0.8518920315722166
+After acceptance,30-59 Days Past Due,0.4,mcar,LR_std,0.8532091164913641,0.8616976927892676
+After acceptance,30-59 Days Past Due,0.4,mcar,RF_std,0.8517955732948176,0.8601503977290005
+After acceptance,30-59 Days Past Due,0.4,mcar,LR_A,0.8542200986785584,0.8616976927892676
+After acceptance,30-59 Days Past Due,0.4,mcar,RF_A,0.8511551194372933,0.8601503977290005
+After acceptance,30-59 Days Past Due,0.4,mcar,LR_B,0.8546974893972669,0.8616976927892676
+After acceptance,30-59 Days Past Due,0.4,mcar,RF_B,0.8522887413833706,0.8601503977290005
+After acceptance,30-59 Days Past Due,0.4,mcar,LR_Aown,0.8542200986785584,0.8614997846149155
+After acceptance,30-59 Days Past Due,0.4,mcar,RF_Aown,0.8511551194372933,0.858464063148
+After acceptance,30-59 Days Past Due,0.5,mcar,BN,0.8417558989253215,0.8518920315722166
+After acceptance,30-59 Days Past Due,0.5,mcar,LR_std,0.8516821882732252,0.8616976927892676
+After acceptance,30-59 Days Past Due,0.5,mcar,RF_std,0.8502256554443207,0.8601503977290005
+After acceptance,30-59 Days Past Due,0.5,mcar,LR_A,0.8528442271402683,0.8616976927892676
+After acceptance,30-59 Days Past Due,0.5,mcar,RF_A,0.8496893024456884,0.8601503977290005
+After acceptance,30-59 Days Past Due,0.5,mcar,LR_B,0.853408290850026,0.8616976927892676
+After acceptance,30-59 Days Past Due,0.5,mcar,RF_B,0.8508514420724692,0.8601503977290005
+After acceptance,30-59 Days Past Due,0.5,mcar,LR_Aown,0.8528442271402683,0.8613430363474256
+After acceptance,30-59 Days Past Due,0.5,mcar,RF_Aown,0.8496893024456884,0.858380628735411
+After acceptance,30-59 Days Past Due,0.2,dependent,BN,0.8480542180121494,0.8518920315722166
+After acceptance,30-59 Days Past Due,0.2,dependent,LR_std,0.8570252105321211,0.8616976927892676
+After acceptance,30-59 Days Past Due,0.2,dependent,RF_std,0.8555729292291246,0.8601503977290005
+After acceptance,30-59 Days Past Due,0.2,dependent,LR_A,0.8575791492257953,0.8616976927892676
+After acceptance,30-59 Days Past Due,0.2,dependent,RF_A,0.8548094120651493,0.8601503977290005
+After acceptance,30-59 Days Past Due,0.2,dependent,LR_B,0.8578993601043337,0.8616976927892676
+After acceptance,30-59 Days Past Due,0.2,dependent,RF_B,0.8558628310436649,0.8601503977290005
+After acceptance,30-59 Days Past Due,0.2,dependent,LR_Aown,0.8575791492257953,0.8615260534809502
+After acceptance,30-59 Days Past Due,0.2,dependent,RF_Aown,0.8548094120651493,0.8590052945229413
+After acceptance,30-59 Days Past Due,0.4,dependent,BN,0.8435178157928316,0.8518920315722166
+After acceptance,30-59 Days Past Due,0.4,dependent,LR_std,0.85228063512875,0.8616976927892676
+After acceptance,30-59 Days Past Due,0.4,dependent,RF_std,0.8509612621610538,0.8601503977290005
+After acceptance,30-59 Days Past Due,0.4,dependent,LR_A,0.8536676348221016,0.8616976927892676
+After acceptance,30-59 Days Past Due,0.4,dependent,RF_A,0.8510357423322062,0.8601503977290005
+After acceptance,30-59 Days Past Due,0.4,dependent,LR_B,0.8540148903274843,0.8616976927892676
+After acceptance,30-59 Days Past Due,0.4,dependent,RF_B,0.8517864041587199,0.8601503977290005
+After acceptance,30-59 Days Past Due,0.4,dependent,LR_Aown,0.8536676348221016,0.8614386332628223
+After acceptance,30-59 Days Past Due,0.4,dependent,RF_Aown,0.8510357423322062,0.8586290237799222
+After acceptance,30-59 Days Past Due,0.5,dependent,BN,0.8413414134914792,0.8518920315722166
+After acceptance,30-59 Days Past Due,0.5,dependent,LR_std,0.8503246139898921,0.8616976927892676
+After acceptance,30-59 Days Past Due,0.5,dependent,RF_std,0.8489149353305281,0.8601503977290005
+After acceptance,30-59 Days Past Due,0.5,dependent,LR_A,0.8518274838144642,0.8616976927892676
+After acceptance,30-59 Days Past Due,0.5,dependent,RF_A,0.8488543831867844,0.8601503977290005
+After acceptance,30-59 Days Past Due,0.5,dependent,LR_B,0.852307440785598,0.8616976927892676
+After acceptance,30-59 Days Past Due,0.5,dependent,RF_B,0.8499830242134566,0.8601503977290005
+After acceptance,30-59 Days Past Due,0.5,dependent,LR_Aown,0.8518274838144642,0.8612043713319109
+After acceptance,30-59 Days Past Due,0.5,dependent,RF_Aown,0.8488543831867844,0.8579750128334913
+After acceptance,60-89 Days Past Due,0.2,mcar,BN,0.8502433347656673,0.8518920315722166
+After acceptance,60-89 Days Past Due,0.2,mcar,LR_std,0.8601429218914974,0.8616976927892676
+After acceptance,60-89 Days Past Due,0.2,mcar,RF_std,0.8586270210686827,0.8601503977290005
+After acceptance,60-89 Days Past Due,0.2,mcar,LR_A,0.8599299416654622,0.8616976927892676
+After acceptance,60-89 Days Past Due,0.2,mcar,RF_A,0.857734240753533,0.8601503977290005
+After acceptance,60-89 Days Past Due,0.2,mcar,LR_B,0.8602000169954035,0.8616976927892676
+After acceptance,60-89 Days Past Due,0.2,mcar,RF_B,0.8583814232214815,0.8601503977290005
+After acceptance,60-89 Days Past Due,0.2,mcar,LR_Aown,0.8599299416654622,0.8614600603113904
+After acceptance,60-89 Days Past Due,0.2,mcar,RF_Aown,0.857734240753533,0.8592558295972722
+After acceptance,60-89 Days Past Due,0.4,mcar,BN,0.8486788418907627,0.8518920315722166
+After acceptance,60-89 Days Past Due,0.4,mcar,LR_std,0.8585125918908743,0.8616976927892676
+After acceptance,60-89 Days Past Due,0.4,mcar,RF_std,0.8569959991250846,0.8601503977290005
+After acceptance,60-89 Days Past Due,0.4,mcar,LR_A,0.8583453244851423,0.8616976927892676
+After acceptance,60-89 Days Past Due,0.4,mcar,RF_A,0.855716112382596,0.8601503977290005
+After acceptance,60-89 Days Past Due,0.4,mcar,LR_B,0.8586484195835199,0.8616976927892676
+After acceptance,60-89 Days Past Due,0.4,mcar,RF_B,0.8565578583366245,0.8601503977290005
+After acceptance,60-89 Days Past Due,0.4,mcar,LR_Aown,0.8583453244851423,0.8613585961475717
+After acceptance,60-89 Days Past Due,0.4,mcar,RF_Aown,0.855716112382596,0.858644628164023
+After acceptance,60-89 Days Past Due,0.5,mcar,BN,0.8477303726496341,0.8518920315722166
+After acceptance,60-89 Days Past Due,0.5,mcar,LR_std,0.8576028919649638,0.8616976927892676
+After acceptance,60-89 Days Past Due,0.5,mcar,RF_std,0.8560127231906204,0.8601503977290005
+After acceptance,60-89 Days Past Due,0.5,mcar,LR_A,0.8575653380083473,0.8616976927892676
+After acceptance,60-89 Days Past Due,0.5,mcar,RF_A,0.8548309452235294,0.8601503977290005
+After acceptance,60-89 Days Past Due,0.5,mcar,LR_B,0.8578071283858281,0.8616976927892676
+After acceptance,60-89 Days Past Due,0.5,mcar,RF_B,0.8555340778794301,0.8601503977290005
+After acceptance,60-89 Days Past Due,0.5,mcar,LR_Aown,0.8575653380083473,0.861174553583092
+After acceptance,60-89 Days Past Due,0.5,mcar,RF_Aown,0.8548309452235294,0.858577716564999
+After acceptance,60-89 Days Past Due,0.2,dependent,BN,0.8508245775648012,0.8518920315722166
+After acceptance,60-89 Days Past Due,0.2,dependent,LR_std,0.8602556149701149,0.8616976927892676
+After acceptance,60-89 Days Past Due,0.2,dependent,RF_std,0.8588659616397871,0.8601503977290005
+After acceptance,60-89 Days Past Due,0.2,dependent,LR_A,0.8600215804173719,0.8616976927892676
+After acceptance,60-89 Days Past Due,0.2,dependent,RF_A,0.8577538211347026,0.8601503977290005
+After acceptance,60-89 Days Past Due,0.2,dependent,LR_B,0.8603384858415181,0.8616976927892676
+After acceptance,60-89 Days Past Due,0.2,dependent,RF_B,0.858648206472217,0.8601503977290005
+After acceptance,60-89 Days Past Due,0.2,dependent,LR_Aown,0.8600215804173719,0.8614374740800035
+After acceptance,60-89 Days Past Due,0.2,dependent,RF_Aown,0.8577538211347026,0.859012873795219
+After acceptance,60-89 Days Past Due,0.4,dependent,BN,0.8498441879955563,0.8518920315722166
+After acceptance,60-89 Days Past Due,0.4,dependent,LR_std,0.8588033675509241,0.8616976927892676
+After acceptance,60-89 Days Past Due,0.4,dependent,RF_std,0.8572870137551309,0.8601503977290005
+After acceptance,60-89 Days Past Due,0.4,dependent,LR_A,0.8587630547391987,0.8616976927892676
+After acceptance,60-89 Days Past Due,0.4,dependent,RF_A,0.856294225388119,0.8601503977290005
+After acceptance,60-89 Days Past Due,0.4,dependent,LR_B,0.8590143593325852,0.8616976927892676
+After acceptance,60-89 Days Past Due,0.4,dependent,RF_B,0.8570272007598533,0.8601503977290005
+After acceptance,60-89 Days Past Due,0.4,dependent,LR_Aown,0.8587630547391987,0.8613554663539608
+After acceptance,60-89 Days Past Due,0.4,dependent,RF_Aown,0.856294225388119,0.8588095798791542
+After acceptance,60-89 Days Past Due,0.5,dependent,BN,0.8494276160326397,0.8518920315722166
+After acceptance,60-89 Days Past Due,0.5,dependent,LR_std,0.8581882971220969,0.8616976927892676
+After acceptance,60-89 Days Past Due,0.5,dependent,RF_std,0.8566344464371489,0.8601503977290005
+After acceptance,60-89 Days Past Due,0.5,dependent,LR_A,0.8582348909213426,0.8616976927892676
+After acceptance,60-89 Days Past Due,0.5,dependent,RF_A,0.8557935841371004,0.8601503977290005
+After acceptance,60-89 Days Past Due,0.5,dependent,LR_B,0.8584416713026549,0.8616976927892676
+After acceptance,60-89 Days Past Due,0.5,dependent,RF_B,0.8562766619850543,0.8601503977290005
+After acceptance,60-89 Days Past Due,0.5,dependent,LR_Aown,0.8582348909213426,0.8612836326863518
+After acceptance,60-89 Days Past Due,0.5,dependent,RF_Aown,0.8557935841371004,0.8587002778561217
+After acceptance,90+ Days Late,0.2,mcar,BN,0.8492007345295685,0.8518920315722166
+After acceptance,90+ Days Late,0.2,mcar,LR_std,0.8583449704885429,0.8616976927892676
+After acceptance,90+ Days Late,0.2,mcar,RF_std,0.8573228565795707,0.8601503977290005
+After acceptance,90+ Days Late,0.2,mcar,LR_A,0.8578746944773054,0.8616976927892676
+After acceptance,90+ Days Late,0.2,mcar,RF_A,0.8565842511460527,0.8601503977290005
+After acceptance,90+ Days Late,0.2,mcar,LR_B,0.8587115317379352,0.8616976927892676
+After acceptance,90+ Days Late,0.2,mcar,RF_B,0.8571231160046857,0.8601503977290005
+After acceptance,90+ Days Late,0.2,mcar,LR_Aown,0.8578746944773054,0.8609118381723718
+After acceptance,90+ Days Late,0.2,mcar,RF_Aown,0.8565842511460527,0.8593527194473516
+After acceptance,90+ Days Late,0.4,mcar,BN,0.8465662427951216,0.8518920315722166
+After acceptance,90+ Days Late,0.4,mcar,LR_std,0.8550840206915916,0.8616976927892676
+After acceptance,90+ Days Late,0.4,mcar,RF_std,0.854693855804969,0.8601503977290005
+After acceptance,90+ Days Late,0.4,mcar,LR_A,0.8543576366117016,0.8616976927892676
+After acceptance,90+ Days Late,0.4,mcar,RF_A,0.8539312160532196,0.8601503977290005
+After acceptance,90+ Days Late,0.4,mcar,LR_B,0.8556986711395668,0.8616976927892676
+After acceptance,90+ Days Late,0.4,mcar,RF_B,0.8542007965012651,0.8601503977290005
+After acceptance,90+ Days Late,0.4,mcar,LR_Aown,0.8543576366117016,0.8598906694432366
+After acceptance,90+ Days Late,0.4,mcar,RF_Aown,0.8539312160532196,0.8588845879243289
+After acceptance,90+ Days Late,0.5,mcar,BN,0.8448564258452473,0.8518920315722166
+After acceptance,90+ Days Late,0.5,mcar,LR_std,0.8532840719274724,0.8616976927892676
+After acceptance,90+ Days Late,0.5,mcar,RF_std,0.8531180270137748,0.8601503977290005
+After acceptance,90+ Days Late,0.5,mcar,LR_A,0.8526191637708644,0.8616976927892676
+After acceptance,90+ Days Late,0.5,mcar,RF_A,0.8522569672906251,0.8601503977290005
+After acceptance,90+ Days Late,0.5,mcar,LR_B,0.8540290305745171,0.8616976927892676
+After acceptance,90+ Days Late,0.5,mcar,RF_B,0.8525363793923331,0.8601503977290005
+After acceptance,90+ Days Late,0.5,mcar,LR_Aown,0.8526191637708644,0.859251576288006
+After acceptance,90+ Days Late,0.5,mcar,RF_Aown,0.8522569672906251,0.858452970660102
+After acceptance,90+ Days Late,0.2,dependent,BN,0.8494460015638268,0.8518920315722166
+After acceptance,90+ Days Late,0.2,dependent,LR_std,0.8583894527917002,0.8616976927892676
+After acceptance,90+ Days Late,0.2,dependent,RF_std,0.8572827149702309,0.8601503977290005
+After acceptance,90+ Days Late,0.2,dependent,LR_A,0.8579698437697981,0.8616976927892676
+After acceptance,90+ Days Late,0.2,dependent,RF_A,0.856547034244133,0.8601503977290005
+After acceptance,90+ Days Late,0.2,dependent,LR_B,0.8586500460061828,0.8616976927892676
+After acceptance,90+ Days Late,0.2,dependent,RF_B,0.857022578295443,0.8601503977290005
+After acceptance,90+ Days Late,0.2,dependent,LR_Aown,0.8579698437697981,0.860946738492012
+After acceptance,90+ Days Late,0.2,dependent,RF_Aown,0.856547034244133,0.8592672965903885
+After acceptance,90+ Days Late,0.4,dependent,BN,0.847130206636821,0.8518920315722166
+After acceptance,90+ Days Late,0.4,dependent,LR_std,0.8551848731635534,0.8616976927892676
+After acceptance,90+ Days Late,0.4,dependent,RF_std,0.854475135840622,0.8601503977290005
+After acceptance,90+ Days Late,0.4,dependent,LR_A,0.8545738884083234,0.8616976927892676
+After acceptance,90+ Days Late,0.4,dependent,RF_A,0.8538008436532556,0.8601503977290005
+After acceptance,90+ Days Late,0.4,dependent,LR_B,0.8559128943662555,0.8616976927892676
+After acceptance,90+ Days Late,0.4,dependent,RF_B,0.8542939225738995,0.8601503977290005
+After acceptance,90+ Days Late,0.4,dependent,LR_Aown,0.8545738884083234,0.859780930497449
+After acceptance,90+ Days Late,0.4,dependent,RF_Aown,0.8538008436532556,0.8587607426153145
+After acceptance,90+ Days Late,0.5,dependent,BN,0.8459098127233154,0.8518920315722166
+After acceptance,90+ Days Late,0.5,dependent,LR_std,0.8537140342353056,0.8616976927892676
+After acceptance,90+ Days Late,0.5,dependent,RF_std,0.8531949967529506,0.8601503977290005
+After acceptance,90+ Days Late,0.5,dependent,LR_A,0.8529268759835779,0.8616976927892676
+After acceptance,90+ Days Late,0.5,dependent,RF_A,0.8528252227837918,0.8601503977290005
+After acceptance,90+ Days Late,0.5,dependent,LR_B,0.8545460742624231,0.8616976927892676
+After acceptance,90+ Days Late,0.5,dependent,RF_B,0.8530249285831923,0.8601503977290005
+After acceptance,90+ Days Late,0.5,dependent,LR_Aown,0.8529268759835779,0.8589290916277843
+After acceptance,90+ Days Late,0.5,dependent,RF_Aown,0.8528252227837918,0.8585117323122301

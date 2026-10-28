@@ -1,0 +1,5 @@
+comparison,row_set,diff,ci_lo,ci_hi,n_resamples,classification
+continuous LR minus binned LR,all,-0.03971823433023092,-0.04890586397214354,-0.03035292076946294,2000,continuous lower
+continuous RF minus binned RF,all,0.02840296116290819,0.022449609244392925,0.034200381079369756,2000,continuous higher
+continuous LR minus BN,bn_valid,-0.011971963286996012,-0.020743570561707406,-0.002714861801301922,2000,(not classified)
+continuous RF minus BN,bn_valid,0.058333038630428824,0.04923337603286061,0.06762529381346033,2000,(not classified)
